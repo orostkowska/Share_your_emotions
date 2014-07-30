@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		770B034A197FB81300A07FBD /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770B0349197FB81300A07FBD /* Media.xcassets */; };
+		7744EED21977C846008425CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7744EED11977C846008425CF /* AppDelegate.swift */; };
+		7744EED41977C846008425CF /* ButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7744EED31977C846008425CF /* ButtonsViewController.swift */; };
+		7744EED71977C846008425CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7744EED51977C846008425CF /* Main.storyboard */; };
+		7744EEE51977C846008425CF /* EmotionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7744EEE41977C846008425CF /* EmotionsTests.swift */; };
+		7744EEEF1977CBD0008425CF /* allButtonsEmotionAndColor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7744EEEE1977CBD0008425CF /* allButtonsEmotionAndColor.plist */; };
+		7744EEF11977D0EC008425CF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7744EEF01977D0EC008425CF /* Colors.swift */; };
+		77EF38311986985100FA82D2 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77EF38301986985100FA82D2 /* Parse.framework */; };
+		77F37CF11979515C00239208 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F37CF01979515C00239208 /* NotificationViewController.swift */; };
+		77F44918197CFA5700AC0FB6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F44917197CFA5700AC0FB6 /* API.swift */; };
+		77F4491A197CFB1700AC0FB6 /* PojedynczaWiadomosc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F44919197CFB1700AC0FB6 /* PojedynczaWiadomosc.swift */; };
+		77F8ED9A1987873700D1293B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F8ED991987873700D1293B /* AudioToolbox.framework */; };
+		77F8ED9C1987873E00D1293B /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F8ED9B1987873E00D1293B /* Accounts.framework */; };
+		77F8ED9E1987874500D1293B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F8ED9D1987874500D1293B /* AdSupport.framework */; };
+		77F8EDA01987874C00D1293B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F8ED9F1987874C00D1293B /* CFNetwork.framework */; };
+		77F8EDA21987875800D1293B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F8EDA11987875800D1293B /* CoreGraphics.framework */; };
+		77F8EDA41987876300D1293B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F8EDA31987876300D1293B /* CoreLocation.framework */; };
+		77F8EDA61987878700D1293B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F8EDA51987878700D1293B /* libsqlite3.dylib */; };
+		77F8EDA81987879700D1293B /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F8EDA71987879700D1293B /* libz.1.1.3.dylib */; };
+		77F8EDAA198787A800D1293B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F8EDA9198787A800D1293B /* MobileCoreServices.framework */; };
+		77F8EDAC198787B300D1293B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F8EDAB198787B300D1293B /* QuartzCore.framework */; };
+		77F8EDAE198787BD00D1293B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F8EDAD198787BD00D1293B /* Security.framework */; };
+		77F8EDB0198787C500D1293B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F8EDAF198787C500D1293B /* Social.framework */; };
+		77F8EDB2198787D000D1293B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F8EDB1198787D000D1293B /* StoreKit.framework */; };
+		77F8EDB4198787DD00D1293B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F8EDB3198787DD00D1293B /* SystemConfiguration.framework */; };
+		77F8EDB6198787E600D1293B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F8EDB5198787E600D1293B /* UIKit.framework */; };
+		77F8EDB8198787F500D1293B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F8EDB7198787F500D1293B /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7744EEDF1977C846008425CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7744EEC41977C846008425CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7744EECB1977C846008425CF;
+			remoteInfo = Emotions;
+		};
+		77F8EDBA1987887D00D1293B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7744EEC41977C846008425CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7744EECB1977C846008425CF;
+			remoteInfo = Emotions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		770B0349197FB81300A07FBD /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		7744EECC1977C846008425CF /* Emotions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emotions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7744EED01977C846008425CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7744EED11977C846008425CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7744EED31977C846008425CF /* ButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsViewController.swift; sourceTree = "<group>"; };
+		7744EED61977C846008425CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7744EEDE1977C846008425CF /* EmotionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7744EEE31977C846008425CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7744EEE41977C846008425CF /* EmotionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionsTests.swift; sourceTree = "<group>"; };
+		7744EEEE1977CBD0008425CF /* allButtonsEmotionAndColor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = allButtonsEmotionAndColor.plist; sourceTree = "<group>"; };
+		7744EEF01977D0EC008425CF /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		77EF38301986985100FA82D2 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../Downloads/Parse.framework; sourceTree = "<group>"; };
+		77F37CF01979515C00239208 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		77F44917197CFA5700AC0FB6 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		77F44919197CFB1700AC0FB6 /* PojedynczaWiadomosc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PojedynczaWiadomosc.swift; sourceTree = "<group>"; };
+		77F8ED991987873700D1293B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		77F8ED9B1987873E00D1293B /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		77F8ED9D1987874500D1293B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		77F8ED9F1987874C00D1293B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		77F8EDA11987875800D1293B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		77F8EDA31987876300D1293B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		77F8EDA51987878700D1293B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		77F8EDA71987879700D1293B /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		77F8EDA9198787A800D1293B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		77F8EDAB198787B300D1293B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		77F8EDAD198787BD00D1293B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		77F8EDAF198787C500D1293B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		77F8EDB1198787D000D1293B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		77F8EDB3198787DD00D1293B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		77F8EDB5198787E600D1293B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		77F8EDB7198787F500D1293B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		77F8EDBC19878C3000D1293B /* Emotions-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Emotions-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7744EEC91977C846008425CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F8EDB8198787F500D1293B /* Foundation.framework in Frameworks */,
+				77F8EDB6198787E600D1293B /* UIKit.framework in Frameworks */,
+				77F8EDB4198787DD00D1293B /* SystemConfiguration.framework in Frameworks */,
+				77F8EDB2198787D000D1293B /* StoreKit.framework in Frameworks */,
+				77F8EDB0198787C500D1293B /* Social.framework in Frameworks */,
+				77F8EDAE198787BD00D1293B /* Security.framework in Frameworks */,
+				77F8EDAC198787B300D1293B /* QuartzCore.framework in Frameworks */,
+				77F8EDAA198787A800D1293B /* MobileCoreServices.framework in Frameworks */,
+				77F8EDA81987879700D1293B /* libz.1.1.3.dylib in Frameworks */,
+				77F8EDA61987878700D1293B /* libsqlite3.dylib in Frameworks */,
+				77F8EDA41987876300D1293B /* CoreLocation.framework in Frameworks */,
+				77F8EDA21987875800D1293B /* CoreGraphics.framework in Frameworks */,
+				77F8EDA01987874C00D1293B /* CFNetwork.framework in Frameworks */,
+				77F8ED9E1987874500D1293B /* AdSupport.framework in Frameworks */,
+				77F8ED9C1987873E00D1293B /* Accounts.framework in Frameworks */,
+				77F8ED9A1987873700D1293B /* AudioToolbox.framework in Frameworks */,
+				77EF38311986985100FA82D2 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7744EEDB1977C846008425CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7744EEC31977C846008425CF = {
+			isa = PBXGroup;
+			children = (
+				770B0349197FB81300A07FBD /* Media.xcassets */,
+				7744EECE1977C846008425CF /* Emotions */,
+				7744EEE11977C846008425CF /* EmotionsTests */,
+				7744EECD1977C846008425CF /* Products */,
+				77F8EDB91987881100D1293B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7744EECD1977C846008425CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7744EECC1977C846008425CF /* Emotions.app */,
+				7744EEDE1977C846008425CF /* EmotionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7744EECE1977C846008425CF /* Emotions */ = {
+			isa = PBXGroup;
+			children = (
+				7744EED51977C846008425CF /* Main.storyboard */,
+				7744EED31977C846008425CF /* ButtonsViewController.swift */,
+				77F37CF01979515C00239208 /* NotificationViewController.swift */,
+				77F44917197CFA5700AC0FB6 /* API.swift */,
+				77F44919197CFB1700AC0FB6 /* PojedynczaWiadomosc.swift */,
+				7744EEEE1977CBD0008425CF /* allButtonsEmotionAndColor.plist */,
+				7744EEF01977D0EC008425CF /* Colors.swift */,
+				7744EED11977C846008425CF /* AppDelegate.swift */,
+				7744EECF1977C846008425CF /* Supporting Files */,
+			);
+			path = Emotions;
+			sourceTree = "<group>";
+		};
+		7744EECF1977C846008425CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7744EED01977C846008425CF /* Info.plist */,
+				77F8EDBC19878C3000D1293B /* Emotions-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7744EEE11977C846008425CF /* EmotionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7744EEE41977C846008425CF /* EmotionsTests.swift */,
+				7744EEE21977C846008425CF /* Supporting Files */,
+			);
+			path = EmotionsTests;
+			sourceTree = "<group>";
+		};
+		7744EEE21977C846008425CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7744EEE31977C846008425CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77F8EDB91987881100D1293B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77EF38301986985100FA82D2 /* Parse.framework */,
+				77F8ED991987873700D1293B /* AudioToolbox.framework */,
+				77F8ED9B1987873E00D1293B /* Accounts.framework */,
+				77F8ED9D1987874500D1293B /* AdSupport.framework */,
+				77F8ED9F1987874C00D1293B /* CFNetwork.framework */,
+				77F8EDA11987875800D1293B /* CoreGraphics.framework */,
+				77F8EDA31987876300D1293B /* CoreLocation.framework */,
+				77F8EDA51987878700D1293B /* libsqlite3.dylib */,
+				77F8EDA71987879700D1293B /* libz.1.1.3.dylib */,
+				77F8EDA9198787A800D1293B /* MobileCoreServices.framework */,
+				77F8EDAB198787B300D1293B /* QuartzCore.framework */,
+				77F8EDAD198787BD00D1293B /* Security.framework */,
+				77F8EDAF198787C500D1293B /* Social.framework */,
+				77F8EDB1198787D000D1293B /* StoreKit.framework */,
+				77F8EDB3198787DD00D1293B /* SystemConfiguration.framework */,
+				77F8EDB5198787E600D1293B /* UIKit.framework */,
+				77F8EDB7198787F500D1293B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7744EECB1977C846008425CF /* Emotions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7744EEE81977C846008425CF /* Build configuration list for PBXNativeTarget "Emotions" */;
+			buildPhases = (
+				7744EEC81977C846008425CF /* Sources */,
+				7744EEC91977C846008425CF /* Frameworks */,
+				7744EECA1977C846008425CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emotions;
+			productName = Emotions;
+			productReference = 7744EECC1977C846008425CF /* Emotions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7744EEDD1977C846008425CF /* EmotionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7744EEEB1977C846008425CF /* Build configuration list for PBXNativeTarget "EmotionsTests" */;
+			buildPhases = (
+				7744EEDA1977C846008425CF /* Sources */,
+				7744EEDB1977C846008425CF /* Frameworks */,
+				7744EEDC1977C846008425CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7744EEE01977C846008425CF /* PBXTargetDependency */,
+				77F8EDBB1987887D00D1293B /* PBXTargetDependency */,
+			);
+			name = EmotionsTests;
+			productName = EmotionsTests;
+			productReference = 7744EEDE1977C846008425CF /* EmotionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7744EEC41977C846008425CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Olga;
+				TargetAttributes = {
+					7744EECB1977C846008425CF = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					7744EEDD1977C846008425CF = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 7744EECB1977C846008425CF;
+					};
+				};
+			};
+			buildConfigurationList = 7744EEC71977C846008425CF /* Build configuration list for PBXProject "Emotions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7744EEC31977C846008425CF;
+			productRefGroup = 7744EECD1977C846008425CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7744EECB1977C846008425CF /* Emotions */,
+				7744EEDD1977C846008425CF /* EmotionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7744EECA1977C846008425CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7744EED71977C846008425CF /* Main.storyboard in Resources */,
+				770B034A197FB81300A07FBD /* Media.xcassets in Resources */,
+				7744EEEF1977CBD0008425CF /* allButtonsEmotionAndColor.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7744EEDC1977C846008425CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7744EEC81977C846008425CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7744EED41977C846008425CF /* ButtonsViewController.swift in Sources */,
+				77F44918197CFA5700AC0FB6 /* API.swift in Sources */,
+				7744EEF11977D0EC008425CF /* Colors.swift in Sources */,
+				77F4491A197CFB1700AC0FB6 /* PojedynczaWiadomosc.swift in Sources */,
+				77F37CF11979515C00239208 /* NotificationViewController.swift in Sources */,
+				7744EED21977C846008425CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7744EEDA1977C846008425CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7744EEE51977C846008425CF /* EmotionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7744EEE01977C846008425CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7744EECB1977C846008425CF /* Emotions */;
+			targetProxy = 7744EEDF1977C846008425CF /* PBXContainerItemProxy */;
+		};
+		77F8EDBB1987887D00D1293B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7744EECB1977C846008425CF /* Emotions */;
+			targetProxy = 77F8EDBA1987887D00D1293B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7744EED51977C846008425CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7744EED61977C846008425CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7744EEE61977C846008425CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7744EEE71977C846008425CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7744EEE91977C846008425CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/olga/Downloads,
+				);
+				INFOPLIST_FILE = Emotions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Emotions/Emotions-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7744EEEA1977C846008425CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/olga/Downloads,
+				);
+				INFOPLIST_FILE = Emotions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Emotions/Emotions-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		7744EEEC1977C846008425CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Emotions.app/Emotions";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EmotionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		7744EEED1977C846008425CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Emotions.app/Emotions";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EmotionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7744EEC71977C846008425CF /* Build configuration list for PBXProject "Emotions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7744EEE61977C846008425CF /* Debug */,
+				7744EEE71977C846008425CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7744EEE81977C846008425CF /* Build configuration list for PBXNativeTarget "Emotions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7744EEE91977C846008425CF /* Debug */,
+				7744EEEA1977C846008425CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7744EEEB1977C846008425CF /* Build configuration list for PBXNativeTarget "EmotionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7744EEEC1977C846008425CF /* Debug */,
+				7744EEED1977C846008425CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7744EEC41977C846008425CF /* Project object */;
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>amused</string>
+		<key>color</key>
+		<string>88CAE1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>happy</string>
+		<key>color</key>
+		<string>619BAA</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>excited</string>
+		<key>color</key>
+		<string>88C65D</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>resentful</string>
+		<key>color</key>
+		<string>CEDD4A</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>bored</string>
+		<key>color</key>
+		<string>D98436</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>tired</string>
+		<key>color</key>
+		<string>CC689D</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>angry</string>
+		<key>color</key>
+		<string>A963A2</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>sad</string>
+		<key>color</key>
+		<string>7C58E2</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>despair</string>
+		<key>color</key>
+		<string>4948D3</string>
+	</dict>
+</array>
+</plist>
